@@ -26,10 +26,11 @@
 
 	<div>
 	<?php 
-		if(count($_POST)==4){
+		if(count($_POST)>0){
+
 			$subtotal = array_sum($_POST);
 			$monto_base_descuento = 10000;
-			$procentaje=null;
+			//$porcen=null;
 			echo "<div> <h4>";
 			echo 'El subtotal de la compra es de <b>'.$subtotal.'</b><br>';
 

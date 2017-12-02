@@ -4,3 +4,5 @@
 - PHP 7.0
 - Apache
 - Docker
+- Bash
+
